@@ -65,7 +65,7 @@ const Veggie = () => {
     <div>
     <Wrapper>
     <h3>Vegetarian Pics</h3>
-    <Splide options={{perPage:3 ,arrows:false, pagination:false, drag:'free', gap:'5rem'}}>
+    <Splide options={{perPage:4 ,arrows:false, pagination:false, drag:'free', gap:'5rem'}}>
     {recipe.map((re)=>(
         <SplideSlide>
           <Card key={re.id}>
